@@ -1,0 +1,214 @@
+/*
+Theme Name: Simple Wordpress Business Theme
+Author: Christian Coogan
+Author URI: christiancoogan.com
+Description: This is a minimal theme for a smaller business that doesn't require anything fancy. The theme is based on bootstrap and fully responsive.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blue, white, light, one-column, two-columns, right-sidebar, responsive-layout, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, translation-ready
+Text Domain: simple-business
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* Theme Image Maximum Content Width */
+
+.size-auto, 
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+	max-width: 100%;
+	height: auto;
+}
+
+/*==== MAIN CSS ====*/
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+ul {
+    list-style-type: none;
+}
+
+.content-padding {
+    padding:20px;
+}
+
+.content-padding img {
+    max-width: 100%;
+}
+
+
+.news {
+    padding-top:50px;   
+}
+
+p {
+    margin-top:15px;
+    font-size:2rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+.btn {
+    background-color:#172D3D;
+    color:#ffffff;
+}
+
+.btn:hover {
+    color:#ffffff;
+    border:1px solid #18C29C;
+}
+
+/*==== FOOTER ====*/
+
+footer {
+    border-top:5px solid #000000;
+    background-color: #031727;
+    color:#ffffff;
+}
+
+.responsive {
+    padding:20px;
+    max-width: 75px;
+    margin: 0 auto;
+}
+
+
+/*==== HEADER & NAV ====*/
+
+.header-image {
+    position: relative;
+}
+
+.header-text h1 {
+    position: absolute;
+    top:17%;
+    left:36%;
+    color:#000000;
+    font-size: 6rem;
+}
+
+.header-text h2 {
+    position: absolute;
+    top:33%;
+    left:40%;
+    color:#000000;
+}
+
+.navbar {
+    background-color:#031727;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: #cccccc;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .nav.navbar-nav.navbar-right li a:hover {
+    background-color:#666666;
+    color:#ffffff;
+}
+
+#hero-image {
+    border-bottom: 5px solid #000000;
+}
+
+header {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/*==== HOME PAGE ====*/
+
+.info {
+    padding:10px;
+    border:1px solid #000000;
+    box-shadow: 5px 5px 5px #172D3D;
+    font-size: 2rem;
+}
+
+#intro {
+    border-top:5px solid #000000;
+}
+
+main {
+    margin-top: 10px;
+    color:#000000;
+    background-color:#e6e6e6;
+
+}
+
+/*==== ABOUT PAGE ====*/
+
+.about {
+    border-right:0.5px solid rgba(0, 0, 27, 0.5);
+}
+
+/*==== CONTACT PAGE ====*/
+
+.googlemap-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.googlemap-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.hours {
+    font-size: 2rem;
+    padding-top:20px;
+}
+
+.form-control {
+    border-color:#031727;
+}
+
+/*==== BLOG PAGE ====*/
+
+.blog-sidebar {
+    border-left:0.5px solid rgba(0, 0, 27, 0.5);
+    padding:35px;
+}
+
+.blog-main {
+    margin-bottom:30px;
+    padding:30px;
+}
+
+.blog {
+    background-color:#ffffff;
+}
+
+@media (max-width: 767px) { 
+    .header-text h1, .header-text h2 {
+        display: none;
+    }
+    .blog-sidebar {
+        border-left:0;
+    }
+}
+
+
+
+
+
+
+
